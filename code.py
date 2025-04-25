@@ -4,8 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pywhatkit
 
-usernameStr = 'me1190782'
-passwordStr = '11c65481'
+usernameStr = ''
+passwordStr = ''
 
 browser = webdriver.Chrome()
 browser.get(('https://ocs.iitd.ac.in/portal/login'))
